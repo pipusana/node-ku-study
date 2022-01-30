@@ -1,0 +1,13 @@
+// Synchronous หรือ Blocking จะดำเนินการรันโปรแกรมทีละชุดคำสั่ง และจะไม่รันชุดคำสั่งต่อไปถ้ายังรันชุดคำสั่งปัจจุบันไม่จบ
+1[] -> complete
+2[] -> complete
+3[] -> complete
+
+// python, php, c = Synchronous
+
+// Asynchronous หรือ Non-blocking จะดำเนินการรันโปรแกรมทีละชุดคำสั่ง และจะรันชุดคำสั่งถัดไปทันทีโดยไม่จำเป็นต้องรอชุดคำสั่งก่อนหน้าทำงานเสร็จ
+1[] -> complete
+2[] -> run
+3[] -> complete
+
+// node = Asynchronous
